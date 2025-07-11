@@ -30,6 +30,7 @@ export default function Hero() {
             <div className="hero-buttons">
               <button onClick={() => scrollToSection("projects")} className="btn-primary">View My Work</button>
               <button onClick={() => scrollToSection("contact")} className="btn-secondary">Get In Touch</button>
+              <a href="/Areen_Resume.pdf" download className="btn-secondary">Download Resume</a>
             </div>
             <div className="hero-info">
               <div><MapPin size={16} /> Islamabad, Pakistan</div>

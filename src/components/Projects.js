@@ -8,34 +8,50 @@ export default function Projects() {
       title: "Worksphere",
       description: "A task management & team collaboration tool.",
       technologies: ["Spring Boot", "React", "MySQL"],
-      image: "https://images.unsplash.com/photo-1611224923853-80b023f02d71?auto=format&fit=crop&w=1200&h=600",
-      githubUrl: "#",
-      liveUrl: "#"
+      image: "images/project11.png",
+      githubUrl: "https://github.com/Areen-Zainab/worksphere-web-app?tab=readme-ov-file",
+      liveUrl: "https://worksphere-web-app.vercel.app/"
     },
     {
       id: "acadify",
       title: "Acadify",
       description: "A modern learning platform built with MERN.",
       technologies: ["MongoDB", "Express.js", "React", "Node.js"],
-      image: "https://images.unsplash.com/photo-1522202176988-66273c2fd55f?auto=format&fit=crop&w=1200&h=600",
-      githubUrl: "#",
-      liveUrl: "#"
+      image: "images/project2.png",
+      githubUrl: "https://github.com/hafsa-imtiaz/acadify-learning-platform",
+      liveUrl: "https://acadify-learning.vercel.app/"
     },
     {
       id: "gym-management",
       title: "GymManagement System",
       description: "Built with C# and MySQL for gym operations.",
       technologies: ["C#", "MySQL", ".NET"],
-      image: "https://images.unsplash.com/photo-1534438327276-14e5300c3a48?auto=format&fit=crop&w=1200&h=600",
-      githubUrl: "#"
+      image: "images/project3.jpg",
+      githubUrl: "https://github.com/hafsa-imtiaz/FlexTrainer-desktop-app"
     },
     {
       id: "pacman-game",
       title: "Multi-Threaded Pacman Game",
       description: "Classic Pacman game with SFML and C++.",
       technologies: ["C++", "SFML", "Multi-threading"],
-      image: "https://images.unsplash.com/photo-1493711662062-fa541adb3fc8?auto=format&fit=crop&w=1200&h=600",
-      githubUrl: "#"
+      image: "images/project4.png",
+      githubUrl: "https://github.com/Areen-Zainab/Multi-threaded-Pacman"
+    },
+    {
+      id: "TORCS",
+      title: "TORCS python client",
+      description: "Real-time telemetry data collection from TORCS.Storage of relevant vehicle and track data for analysis.",
+      technologies: ["python"],
+      image: "images/project5.png",
+      githubUrl: "https://github.com/hafsa-imtiaz/torcs-python-client"
+    },
+    {
+      id: "lost",
+      title: "Lost and Found web app",
+      description: "This system is a Spring Boot + Java + MySQL web application designed for managing lost and found items.",
+      technologies: ["Java", "Javascript", "MySQL", "HTML", "CSS"],
+      image: "images/project6.png",
+      githubUrl: "https://github.com/hafsa-imtiaz/LostAndFound-web-app"
     }
   ];
 

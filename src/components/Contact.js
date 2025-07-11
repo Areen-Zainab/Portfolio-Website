@@ -21,7 +21,7 @@ export default function Contact() {
       icon: <Linkedin className="contact-icon" />,
       label: "LinkedIn",
       value: "View Profile",
-      href: "https://www.linkedin.com/in/areen-zainab",
+      href: "https://www.linkedin.com/in/areen-zainab-470849250/",
       bgColor: "blue"
     }
   ];

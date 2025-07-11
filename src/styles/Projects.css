@@ -24,7 +24,21 @@
 .projects-grid {
   display: grid;
   gap: 2rem;
+  grid-template-columns: 1fr; /* Mobile-first: 1 column */
 }
+
+@media (min-width: 768px) {
+  .projects-grid {
+    grid-template-columns: repeat(2, 1fr); /* Tablets: 2 columns */
+}
+}
+@media (min-width: 1024px) {
+  .projects-grid {
+    grid-template-columns: repeat(3, 1fr); /* Desktops: 3 columns */
+  }
+}
+
+
 .project-card {
   background: #fff;
   border-radius: 1rem;
@@ -91,3 +105,4 @@
 .github-link:hover {
   color: #111827;
 }
+

@@ -1,11 +1,11 @@
+
 .hero-section {
-  min-height: 100vh;
+  min-height: 80vh;
   display: flex;
   align-items: center;
   background: linear-gradient(135deg, #e0f0ff 0%, #d0e3ff 100%);
   padding: 4rem 0;
 }
-
 .hero-container {
   max-width: 1200px;
   margin: auto;
