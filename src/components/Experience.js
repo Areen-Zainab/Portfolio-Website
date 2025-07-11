@@ -54,15 +54,32 @@ export default function Experience() {
         </div>
         <div className="timeline">
           {experiences.map((exp, index) => (
-            <div key={exp.id} className="timeline-item">
-              <div className={`timeline-dot ${getColorClass(exp.type)}`}></div>
-              <div className={`timeline-content ${index % 2 === 0 ? "left" : "right"}`}>
-                <div className="experience-card">
-                  <h3>{exp.title}</h3>
-                  <p className="company">{exp.company} • {exp.duration}</p>
-                  <p className="desc">{exp.description}</p>
-                </div>
-              </div>
+            <div key={exp.id} className="experience-item">
+              {index % 2 === 0 ? (
+                <>
+                  <div className="experience-card left">
+                    <div className="card">
+                      <h3>{exp.title}</h3>
+                      <p className="company">{exp.company} • {exp.duration}</p>
+                      <p>{exp.description}</p>
+                    </div>
+                  </div>
+                  <div className={`timeline-dot ${getColorClass(exp.type)}`}></div>
+                  <div className="empty-side" />
+                </>
+              ) : (
+                <>
+                  <div className="empty-side" />
+                  <div className={`timeline-dot ${getColorClass(exp.type)}`}></div>
+                  <div className="experience-card right">
+                    <div className="card">
+                      <h3>{exp.title}</h3>
+                      <p className="company">{exp.company} • {exp.duration}</p>
+                      <p>{exp.description}</p>
+                    </div>
+                  </div>
+                </>
+              )}
             </div>
           ))}
         </div>
